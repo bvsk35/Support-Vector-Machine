@@ -1,5 +1,6 @@
 # Support-Vector-Machine
 Gaussian and Polynomial Kernel SVM 
+<pre>
 Author: Sameer
 Date: 09/11/2018
 Read Me: 
@@ -19,3 +20,4 @@ Grid Size is controls the number of points to be searched on 1x1 grid to generat
 made values below 1.0e-04 to be zero. For Non Support Vectors lagrange mulitpliers are zero and for Support Vector they are
 greater than zero.
 5 - Postive Class is also represented by C_1 and Negative Class is also represented C_-1
+</pre>
