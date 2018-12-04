@@ -9,9 +9,9 @@ Gaussian Standard Deviation is a free variable used in the Gaussian Kernel
 Order is a free variable used to control the order of the polynomial used in Polynomial Kernel
 Grid Size is controls the number of points to be searched on 1x1 grid to generate decision boundaries
 - Quadratic Optimization Problem:
- - QP: Minimize- 1/2 * X.T * P * X + q.T * X
- - ST: G * X <= h and A * X = b
- - Matrices were selected based on above descritpion. But for the detailed description go through following link: http://cs229.stanford.edu/notes/cs229-notes3.pdf
+  - QP: Minimize- 1/2 * X.T * P * X + q.T * X
+  - ST: G * X <= h and A * X = b
+  - Matrices were selected based on above descritpion. But for the detailed description go through following link: http://cs229.stanford.edu/notes/cs229-notes3.pdf
 - Solution for the QP problem will not be accurate i.e. lagrange mulitpliers will not be absolute zero, so I have
 made values below 1.0e-04 to be zero. For Non Support Vectors lagrange mulitpliers are zero and for Support Vector they are
 greater than zero.
